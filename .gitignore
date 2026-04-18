@@ -1,0 +1,50 @@
+# Xcode 缓存
+.DS_Store
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+*.build/
+
+# Build 产物
+build/
+DerivedData/
+*.ipa
+*.dSYM
+
+# 签名文件
+*.mobileprovision
+
+# VS Code
+.vscode/
+!.vscode/launch.json
+
+# 系统文件
+.Spotlight-V100
+.Trashes
+._*
+
+# 日志
+*.log
+
+# 备份文件
+*~
+*.backup
+
+# 依赖
+Pods/
+Carthage/
+.idea/
+
+# 工具配置
+.swiftlint.yml
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+docs/
+Jazzy/
